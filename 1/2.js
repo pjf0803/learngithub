@@ -5,3 +5,6 @@ console.log('测试结果1')
 
 
 console.log('测试结果1')
+console.log('删除测试文件 ')
+
+
