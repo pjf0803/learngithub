@@ -185,10 +185,6 @@
 // 5. [转]使用Google Cloud + cloudflare永久免费运行一个网站(1)
 // Copyright © 2021 极·简
 // Powered by .NET 5.0 on Kubernetes
-<<<<<<< HEAD
-// dfahskgdfasjfdash
-=======
 
 // dfahskgdfasjfdash
 
->>>>>>> bd4ca1862489ff8d0a9f52802e7404871a6f0bed
