@@ -176,7 +176,7 @@
 // 2. javascript使用H5新版媒体接口navigator.mediaDevices.getUserMedia，做扫描二维码，并识别内容(12115)
 // 3. 我用AI(Adobe Illustrator CS6)合并路径的两个常用方法(11795)
 // 4. vscode 添加eslint插件(11084)
-// 5. javascript使用history api防止|阻止页面后退(9044)
+// 5. javascript使用historewqreqwreqwreqwry api防止|阻止页面后退(9044)
 // 推荐排行榜
 // 1. git 中文文件名乱码(3)
 // 2. sass-loader使用data引入公用文件或全局变量报错(1)
