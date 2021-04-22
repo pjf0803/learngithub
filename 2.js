@@ -6,7 +6,7 @@
 
 // git checkout -b new
 
-// 它是下面两条命令的简写：
+// 它是下面两条命令的简写：fdsafdasfdsafdasfdsafdsafdasfdsafdasds
 
 // git branch new
 // git checkout new
