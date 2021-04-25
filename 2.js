@@ -3,7 +3,7 @@
 // 删除本地git的远程分支和远程删除git服务器的分支
 // 新建分支: 
 
-fdsa/ git checkout -b new
+// fdsa/ git checkout -b new
 
 // 它是下面两条命令的简写：fdsafdasfdsafdasfdsafdsafdasfdsafdasds
 
