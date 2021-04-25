@@ -1,6 +1,5 @@
-<<<<<<< wEAD
-ffdsafdsafdsadsaadfsafdas/ 432143214321fafjafdafdfdasfdasfdasfdasfdasfdhsfdsafsafdsafdsafdasfsadfsafdsafakjfhdsakfdsafdsjahfsakjfhdaksfdhasfdasffdasfdasfdasfeeqwreqwrewq 测试分支 
-=======
+
+ffdsafdsafdsadsaadfsafdas/ 432143214321fafjafdafdfdasfdasfdasfdasfdasfdhsfdsafsafdsafdsafdasfsadfsafdsafakjfhdsakfdsafdsjahfsakjfhdaksfdhasfdasffdasfdasfdasfeeqwreqwrewq 测试分
 // 432143214321fafjdhsakjfhdsakfdsafdsjahfsakjfhdaksfdhasfdasffdasfdasfdasfeeqwreqwrewq 测试分支 
-// 更改3.js   
->>>>>>> master
+// 更改3.js  :wq
+
