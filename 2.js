@@ -188,3 +188,19 @@
 
 // dfahskgdfasjfdash
 // tt.hideKeyboard() 测试等你的结果的
+
+// 2. javascript使用H5新版媒体接口navigator.mediaDevices.getUserMedia，做扫描二维码，并识别内容(12115)
+// 3. 我用AI(Adobe Illustrator CS6)合并路径的两个常用方法(11795)
+// 4. vscode 添加eslint插件(11084)
+// 5. javascript使用historewqreqwreqwreqwry api防止|阻止页面后退(9044)
+// 推荐排行榜
+// 1. git 中文文件名乱码(3)
+// 2. sass-loader使用data引入公用文件或全局变量报错(1)
+// 3. javascript使用H5新版媒体接口navigator.mediaDevices.getUserMedia，做扫描二维码，并识别内容(1)
+// 4. javascript获取手机上媒体设备，摄像头和话筒(1)
+// 5. [转]使用Google Cloud + cloudflare永久免费运行一个网站(1)
+// Copyright © 2021 极·简
+// Powered by .NET 5.0 on Kubernetes
+
+// dfahskgdfasjfdash
+// tt.hideKeyboard() 测试等你的结果的
