@@ -1,11 +1,4 @@
-// master 文件
-// fdsfdfsdgfsgfgsdf/ /fdsafdafdafdsafdsafdasfdsafdsa/afdsafdsafdsafhjdsafdsjkafdhsakjfhdakshdaslkjfdsakjfhdasjlkfhdlsajk/ Return Home随记
-// CnBlogsHomeNew PostContactAdminSubscription订阅Posts - 87  Articles - 0  Comments - 17  Views - 19万 
-// 删除本地git的远程分支和远程删除git服务器的分支
-// 新建分支: 
-  // fdsafdsa
-// fdsa/ git checkout -b new
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { HkButton as Button, HkInput as Input, HkSelect as Select, HkMessage as message, HkTreeSelect as TreeSelect, HkModal as Modal, HkForm as Form } from '@hekit/hekit-ui'
 // import { Form } from 'antd'
 import { connect } from 'dva'
@@ -19,12 +12,12 @@ const { Content, Footer } = Modal
 
 const RoleModal = props => {
   const [form] = Form.useForm();
-  const [isShowDepart, setShowDepart] = useState(false)
   useEffect(() => {
     if (props.visible) {
       initRole()
     }
   }, [props.visible])
+
   const initRole = async () => {
     const { dispatch } = props
     const res = await dispatch({
@@ -46,7 +39,6 @@ const RoleModal = props => {
       additionalDepartment: roleData.additionalDepartment && roleData.additionalDepartment.map(item => { return { value: item } }),
       description: roleData.description,
     })
-    setShowDepart(!!(roleData.dataLevel === '3' || roleData.dataLevel === '4'))
   }
 
   const handleSubmit = () => {
@@ -106,8 +98,8 @@ const RoleModal = props => {
     },
   }
   const isNew = !roleId;
-  // const isShowDepart = !!(form.getFieldValue('dataLevel') === '3' || form.getFieldValue('dataLevel') === '4')
-
+  const isShowDepart = !!(form.getFieldValue('dataLevel') === '3' || form.getFieldValue('dataLevel') === '4')
+  console.log(isSaas, 102)
   return (
     <Modal
       visible={visible}
@@ -122,10 +114,10 @@ const RoleModal = props => {
     >
       <Content className={S.roleModal}>
         <Form form={form}  {...formItemLayout}>
-          <FormItem shouldUpdate name="name" label={fm('roleName', '角色名称')} rules={[{ required: true, message: fm('enter', '请输入') }]}>
+          <FormItem name="name" label={fm('roleName', '角色名称')} rules={[{ required: true, message: fm('enter', '请输入') }]}>
             <Input disabled={!editable} placeholder={fm('enter', '请输入')} />
           </FormItem>
-          <FormItem name="dataLevel"  rules={[{ required: true, message: fm('select', '请选择') }]} label={fm('dataLevel', '权限层级')}>
+          <FormItem name="dataLevel" rules={[{ required: true, message: fm('select', '请选择') }]} label={fm('dataLevel', '权限层级')}>
             <Select disabled={!editable}>
               {
                 dataLevels && dataLevels.map(item => <Option value={item.value} key={item.value}>{item.desc}</Option>)
@@ -170,4 +162,3 @@ export default connect(({
   isSaas: login.isSaas,
   saveLoading: loading.effects['roleManage/saveOrUpdateRole']
 }))(RoleModal)
-
